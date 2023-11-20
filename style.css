@@ -1,0 +1,35 @@
+
+/*Page de conexion*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(avion3sss.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:  center; */
+}
+form{
+    background-color: white;
+    border-radius: 5px;
+    height: 500px;
+    margin: 140px;
+    text-align: center;
+
+}
+.form-group{
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+    margin-top: 20px;
+    margin: 50px;
+    /* background-color: white; */
+}
+button{
+    margin: 30px;
+}
+/* FIN PAGE DE CONECTION */

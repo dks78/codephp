@@ -1,0 +1,13 @@
+.display-1{
+color: white;
+font-size: 100px;
+text-align: center;
+padding: 350px;
+background-image: url("avion.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+h2{
+    text-align: center;
+}
