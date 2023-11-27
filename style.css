@@ -13,7 +13,7 @@ body {
     background-size: cover;
     /* background-position:  center; */
 }
-form{
+.conect{
     background-color: white;
     border-radius: 5px;
     height: 500px;
@@ -29,7 +29,13 @@ form{
     margin: 50px;
     /* background-color: white; */
 }
+.conect>.form-group> a{
+    text-decoration: none;
+    font-style: italic;
+}
 button{
     margin: 30px;
 }
 /* FIN PAGE DE CONECTION */
+
+/*CHOIX.PHP */

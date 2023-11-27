@@ -8,20 +8,20 @@
     <title>conect</title>
 </head>
 <body>
-    <form action="addconect.php" methode="post">
+    <form   class="conect" action="conexion.php" method="post">
         <div class="form-group">
-            <label for="exampleInputEmail1">name</label>
-            <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="pasword">Password</label>
+            <input type="password" class="form-control" name="pasword" id="pasword" placeholder="Password">
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
+        <a href="inscription.php">inscription</a>
         <button type="submit" class="btn btn-primary mt-3">Submit</button>
     </form>
 </body>
 </html>
+<?php
+
+?>

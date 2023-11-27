@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'header.php'
 ?>
 
 <!DOCTYPE html>
@@ -14,15 +15,6 @@ session_start();
   <header>
     <h1>DONKEYAIR</h1>
   </header>
-    <nav class="navbar bg-primary" data-bs-theme="dark">
-      <a href="page1.php">Acceuil</a>
-      <a href="info.php" target="_blank">info</a>
-      <a href="index.php">deconecxtion</a>
-      <div class="container-fluid">
-      <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </nav>
   <main>
     <h2>Votre Panier</h2>
     <?php
@@ -30,7 +22,8 @@ session_start();
         echo "<ul>";
         foreach ($_SESSION['panier'] as $key => $vol) {
           echo "<li>Vol réservé : $vol ";
-          echo "<a href='supprimer.php?key=$key'>Supprimer</a></li>";
+          echo "<a href='delete.php?key=$key'>delete</a>"." ";
+          echo "<a href= 'choix.php'>ajouter</a></li>";
         }
         echo "</ul>";
       } else {
